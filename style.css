@@ -111,3 +111,37 @@ img {
 }
 /* /media-query */
 
+/* media-query bonus */
+@media  screen and (max-width: 768px) and (min-width: 421px){
+  .row {
+    width: auto;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  #lezioni {
+    background: linear-gradient(#e66465, #9198e5);
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+  }
+
+  #steps {
+    background-color: white;
+  }
+  
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: calc(100% / 3); 
+  }
+  
+  #why {
+    background: linear-gradient(#e66465, #9198e5);
+  }
+  
+}
